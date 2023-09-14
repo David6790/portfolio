@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import IconCta from "../../layout/IconCta";
+import { motion } from "framer-motion";
+
+import { useInView } from "framer-motion";
 
 const PersonnalCard = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: false });
+
   return (
-    <div className="  group flex flex-row w-full justify-between items-center gap-11 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full ">
+    <motion.div
+      ref={ref}
+      className="  group flex flex-row w-full justify-between items-center gap-11 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
+      style={{
+        transform: isInView ? "none" : "opacity:0;  ",
+        opacity: isInView ? 1 : 0,
+
+        transition: "all  ease-in 0.9s ",
+      }}
+    >
       <div className=" h-[100%] w-[50%] ">
         <img
           src="./img/david2.jpg"
@@ -25,7 +40,7 @@ const PersonnalCard = () => {
           <IconCta />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

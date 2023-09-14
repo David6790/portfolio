@@ -1,9 +1,12 @@
 import Routeur from "./Routeur";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
     <div className="App">
-      <Routeur />
+      <AnimatePresence>
+        <Routeur />
+      </AnimatePresence>
     </div>
   );
 }
