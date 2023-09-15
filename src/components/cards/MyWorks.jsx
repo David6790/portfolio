@@ -1,34 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
 import IconCta from "../../layout/IconCta";
 import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
 
 const MyWorks = () => {
-  const variants = {
-    initial: {
-      opacity: 0,
+  const ref = useRef();
+  const isInView = useInView(ref, { once: false });
 
-      x: -1000,
-    },
-    visible: {
-      opacity: 1,
-      transition: { duration: 1 },
-      x: 0,
-    },
-    exit: {
-      opacity: 0,
-      transition: {
-        duration: 3,
-      },
-      x: -200,
-    },
-  };
   return (
     <motion.div
       className="h-full flex flex-col justify-between  p-[20px] w-full  rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] group"
-      initial="initial"
-      animate="visible"
-      exit="exit"
-      variants={variants}
+      ref={ref}
+      style={{
+        transform: isInView ? "none" : "scale(0); opacity(0.7)",
+        scale: isInView ? 1 : 0,
+        opacity: isInView ? 1 : 0,
+        transition: "all ease-in 0.5s",
+      }}
     >
       <div className=" text-white text-6xl flex flex-row justify-between mt-[30px] ">
         <i className="fa-brands fa-react"></i>

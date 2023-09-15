@@ -16,7 +16,7 @@ const PersonnalCard = () => {
         transform: isInView ? "none" : "opacity:0;  ",
         opacity: isInView ? 1 : 0,
 
-        transition: "all  ease-in 0.9s ",
+        transition: "all  ease-in 0.5s ",
       }}
     >
       <div className=" h-[100%] w-[50%] ">

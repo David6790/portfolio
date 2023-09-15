@@ -16,7 +16,7 @@ const AboutMe = () => {
         transform: isInView ? "none" : " opacity(0);  translateX(200px) ",
         opacity: isInView ? 1 : 0,
         x: isInView ? 0 : 200,
-        transition: "all 0.5s ease-in 1s",
+        transition: "all 0.5s ease-in 0.9s",
       }}
     >
       <div>
