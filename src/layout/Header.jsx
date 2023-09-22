@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className=" h-24 flex flex-row items-center justify-between mb-[40px]">
+    <div className=" h-24 min-full flex flex-row items-center justify-between mb-[40px]">
       <NavLink to="/">
         <Logo />
       </NavLink>

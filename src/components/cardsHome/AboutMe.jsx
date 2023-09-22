@@ -11,16 +11,16 @@ const AboutMe = () => {
   return (
     <motion.div
       ref={ref}
-      className=" flex flex-colitems-center h-[75%] overflow-hidden justify-center items-center "
+      className=" flex flex-colitems-center h-[60%] overflow-hidden justify-center items-center "
       style={{
-        transform: isInView ? "none" : " opacity(0);  translateX(200px) ",
+        transform: isInView ? "none" : " opacity(0) ",
         opacity: isInView ? 1 : 0,
-        x: isInView ? 0 : 200,
-        transition: "all 0.5s ease-in 0.9s",
+
+        transition: "all 0.9s ease-in 0.9s",
       }}
     >
       <div>
-        <img src="./img/signature.png" alt="signature" className="w-full  " />
+        <img src={"./img/signature.png"} alt="signature" className="w-full  " />
       </div>
     </motion.div>
   );

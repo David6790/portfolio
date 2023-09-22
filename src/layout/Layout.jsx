@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="w-full">
       <Header />
       <main>{children}</main>
       <Footer />
