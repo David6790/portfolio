@@ -2,20 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  max-width: 1440px;
-  background: linear-gradient(to right, #000, #111, #222);
-  margin: auto;
-
-  scroll-behavior: smooth;
-  color: white;
-
-  line-height: 19.2px;
-  font-family: "Inter", sans-serif;
-  padding: 30px 130px;
-  backdrop-filter: blur(10px);
-} */
-
-.test {
-  filter: drop-shadow(0 0 5px #6fd1d0);
-}
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
