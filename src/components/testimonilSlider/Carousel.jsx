@@ -5,11 +5,11 @@ const Carousel = ({ testimonials }) => {
   const settings = {
     infinite: true,
     speed: 1000,
-    arrows: false,
+
     autoplay: true,
     cssEase: "ease-out",
     autoplaySpeed: 5000,
-    arrow: true,
+    arrows: true,
   };
 
   return (

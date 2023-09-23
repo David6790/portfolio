@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         "spe-gradient": "linear-gradient(to right, #000, #111, #222)",
 
+        "modal-gradient":
+          "linear-gradient(to right, #1A1A1A, #2B2B2B, #3C3C3C)",
+
         "spe-alternate":
           "linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05))",
         "card-gradiant":

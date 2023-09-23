@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Layout from "../layout/Layout";
 import { useGetProjectsQuery } from "../API/api";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 import { useInView } from "framer-motion";
 import TestimonialSlider from "../components/testimonilSlider/TestimonialSlider";
+import ProjectModal from "../components/ProjectModal/ProjectModal";
 
 const Works = () => {
   const { data: projects, refetch } = useGetProjectsQuery();
@@ -15,6 +16,19 @@ const Works = () => {
   const myProject = useSelector(works);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleClick = (project) => {
+    console.log("clicked");
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
   useEffect(() => {
     refetch();
@@ -25,6 +39,11 @@ const Works = () => {
 
   return (
     <Layout>
+      <ProjectModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        project={selectedProject}
+      />
       <div className="flex flex-row justify-between gap-10 ">
         <div className=" w-full text-2xl">
           <div className="  flex flex-row justify-center items-center mb-10 mt-10">
@@ -47,7 +66,7 @@ const Works = () => {
               transform: isInView ? "none" : "opacity:0  ",
               opacity: isInView ? 1 : 0,
 
-              transition: "all 0.3s  ease-in 0.9s ",
+              transition: "all ease-in 0.9s ",
             }}
           >
             <TestimonialSlider />
@@ -66,6 +85,7 @@ const Works = () => {
                     mission={item.typeOfMission.toUpperCase()}
                     name={item.name}
                     key={item.id}
+                    handleClick={() => handleClick(item)}
                   />
                 ))
               : ""}

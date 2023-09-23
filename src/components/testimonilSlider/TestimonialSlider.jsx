@@ -12,10 +12,17 @@ const TestimonialSlider = () => {
     },
     {
       name: "Killian Petit Grazini",
-      position: "Chef d'entreprise à Strasbourg",
+      position: "Hereux mari d'Elisa depuis 2023",
       review:
         "Un immense merci à David pour la réalisation de notre site de faire-part de mariage ! Sa disponibilité et son attitude - tout est possible - nous ont vraiment touchés. Même face à nos demandes parfois exigeantes, il a toujours été arrangeant. Un vrai bonheur de collaborer avec lui. Je recommande les yeux fermés !",
       image: "./img/client/killian.jpeg",
+    },
+    {
+      name: "Fanny Fuchs",
+      position: "Société de gestion immobilière",
+      review:
+        "Un grand merci à David pour la réalisation impeccable du site vitrine de Guest Season, notre société de location immobilière à Strasbourg. Sa maîtrise en création de site et son expertise en SEO ont vraiment fait la différence. Grâce à lui, notre présence en ligne est solide et professionnelle. Je suis plus que satisfait de son travail et le recommande vivement !",
+      image: "./img/client/fanny.jpg",
     },
   ];
 
