@@ -18,7 +18,7 @@ const Socials = () => {
         transition: "all ease-in 0.5s ",
       }}
     >
-      <div className=" text-white text-4xl flex flex-row justify-evenly mb-5 border-solid border-[#444] rounded-2xl mx-5 p-5 border-[1px]">
+      <div className=" text-white text-4xl flex flex-row justify-evenly mb-5 border-solid border-[#444] rounded-2xl mx-5 sm:mx-0 p-5 border-[1px]">
         <i className="fa-brands fa-instagram"></i>
         <i className="fa-brands fa-github"></i>
         <i className="fa-brands fa-linkedin-in"></i>

@@ -9,10 +9,10 @@ const AboutTitle = () => {
   const isInView = useInView(ref, { once: true });
   const words = ["Expertise & Expériences"];
   return (
-    <div className=" w-9/12 flex flex-col justify-between   ">
+    <div className=" lg:w-9/12 md:w-8/12 sm:w-7/12 flex flex-col justify-between   ">
       <div className=" h-2/6 flex flex-row justify-evenly items-center text-3xl  ">
         <i className="fa-regular fa-compass text-myGrey"></i>
-        <h1 className="text-4xl">
+        <h1 className="lg:text-4xl md:text-xl sm:text-lg">
           <Typewriter
             words={words}
             typeSpeed={80}
@@ -35,7 +35,7 @@ const AboutTitle = () => {
           transition: "all 0.6s ease-in 0.5s ",
         }}
       >
-        <h1 className=" text-3xl mb-3 ">
+        <h1 className=" lg:text-3xl md:text-3xl sm:text-2xl mb-3 ">
           David <span className=" text-myBlue">Long Bin</span>
         </h1>
         <p className=" text-justify text-sm">

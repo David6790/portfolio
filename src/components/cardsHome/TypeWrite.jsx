@@ -10,8 +10,7 @@ const TypeWrite = () => {
   return (
     <motion.div
       ref={ref}
-      className="  h-[1
-        20px]  flex flex-row lg:justify-start items-center rounded-3xl  w-full py-5 px-2 md:justify-center  "
+      className="  lg:h-[120px] md:h-[120px] sm:h-[120px] h-auto flex flex-row lg:justify-start items-center rounded-3xl  w-full lg:py-5 md:py-5 sm:py-5 py-0  md:justify-center sm:justify-center justify-center  "
       style={{
         transform: isInView ? "none" : " opacity(0.7)",
 
@@ -19,7 +18,7 @@ const TypeWrite = () => {
         transition: "all ease-in 0.5s ",
       }}
     >
-      <h1 className=" text-3xl ">
+      <h1 className=" lg:text-2xl md:text-2xl sm:text-2xl text-3xl ">
         Je suis
         <span className=" ml-2 text-myBlue ">
           <Typewriter

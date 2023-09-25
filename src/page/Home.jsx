@@ -12,28 +12,28 @@ const Home = () => {
   return (
     <div>
       <Layout>
-        <div className=" flex lg:flex-row w-[100%] justify-between gap-8  lg:h-[350px]   mb-10 md:flex-col ">
-          <div className="w-8/12 md:w-full ">
+        <div className=" flex lg:flex-row w-[100%] justify-between gap-8  lg:h-[350px] mb-10 md:flex-col sm:flex-col flex-col ">
+          <div className="lg:w-8/12 md:w-full sm:w-full ">
             <PersonnalCard />
           </div>
-          <div className="  lg:w-6/12 flex flex-col justify-start gap-10 0 h-full  md:w-full  ">
+          <div className="  lg:w-6/12 flex flex-col justify-start gap-10 0 h-full  md:w-full sm:w-full  ">
             <TypeWrite />
             <AboutMe />
           </div>
         </div>
-        <div className="flex flex-row  justify-between w-full  h-[250px]  mb-10 gap-8">
-          <div className=" w-8/12">
+        <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col  lg:justify-between md:justify-between sm:justify-between justify-evenly  w-full  lg:h-[250px] md:h-[250px] sm:h-[250px] h-[300px]  mb-10 gap-8">
+          <div className=" lg:w-8/12 md:w-8/12 sm:w-8/12 w-full ">
             <MyWorks />
           </div>
-          <div className=" w-4/12">
+          <div className=" lg:w-4/12 md:w-4/12 sm:w-4/12 w-full lg:mb-0 md:mb-0 sm:mb-0 mb-10">
             <Experience />
           </div>
         </div>
-        <div className="flex flex-row w-[100%] justify-between gap-8  h-[250px]  ">
-          <div className=" w-5/12">
+        <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col w-[100%] justify-between gap-8  lg:h-[250px] md:h-[250px] sm:h-[250px] h-[400px]  ">
+          <div className=" lg:w-5/12 md:w-5/12 sm:w-5/12 w-full lg:h-full md:h-full sm:h-full  h-[50%]">
             <Socials />
           </div>
-          <div className=" w-7/12">
+          <div className=" lg:w-7/12 md:w-7/12 sm:w-7/12 w-full lg:h-full md:h-full sm:h-full  h-[50%]">
             <ContactCard />
           </div>
         </div>

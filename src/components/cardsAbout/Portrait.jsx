@@ -15,7 +15,7 @@ const Portrait = () => {
 
         transition: "all  ease-in 0.5s ",
       }}
-      className="h-[100%] w-3/12 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px]"
+      className="h-[100%] lg:w-3/12 md:w-4/12 sm:w-5/12 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px]"
     >
       <img
         src="./img/david2.jpg"

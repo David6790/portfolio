@@ -15,19 +15,19 @@ const Carousel = ({ testimonials }) => {
   return (
     <Slider
       {...settings}
-      className=" rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-[400px] flex flex-row justify-center items-center p-10"
+      className=" rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] lg:h-[400px] md:h-[400px] sm:h-auto flex flex-row justify-center items-center p-10"
     >
       {testimonials.map((testimonial, index) => (
         <div
           key={index}
-          className="w-full border-l-2 border-r-2 border-gray-300  "
+          className="w-full border-l-2 border-r-2 border-gray-300   "
         >
-          <div className=" flex flex-row w-full h-full justify-center items-center gap-8">
+          <div className=" flex lg:flex-row md:flex-row sm:flex-col lg:text-start md:text-start sm:text-center w-full h-full justify-center items-center gap-8">
             <div>
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className=" h-[250px] rounded-full border-[1px] border-white  border-solid "
+                className=" lg:h-[250px] md:h-[250px] sm:h-[150px] rounded-full border-[1px] border-white  border-solid "
               />
             </div>
             <div className="w-[50%] ">

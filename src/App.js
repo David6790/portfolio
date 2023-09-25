@@ -20,7 +20,7 @@ function App() {
   }, [dispatch, myProject, projects, refetch]);
   return (
     <div className={" bg-spe-gradient  text-white App  m-auto"}>
-      <main className=" lg:max-w-[1440px] min-h-screen m-auto leading-[19.2px] font-main-font scroll-smooth py-[30px] lg:px-[130px] md:px-[50px] ">
+      <main className=" lg:max-w-[1440px] min-h-screen m-auto leading-[19.2px] font-main-font scroll-smooth py-[30px] lg:px-[130px] md:px-[50px] sm:px-[20px] px-[10px] ">
         <AnimatePresence>
           <Routeur />
         </AnimatePresence>
