@@ -7,7 +7,7 @@ const TestimonialSlider = () => {
       name: "Stephane Wernert",
       position: "Gérant Restaurant Il Girasole Strasbourg",
       review:
-        "Un grand merci à David pour le superbe site de mon restaurant ! Ultra réactif, à l'écoute et même en avance sur les délais. Mes clients adorent, et moi aussi. Une collaboration au top ! Je n'hésiterai pas à refaire appel à toi. Bravo et merci !",
+        "David a réalisé un superbe site de mon restaurant ! Ultra réactif, à l'écoute et même en avance sur les délais. Mes clients adorent, et moi aussi. Une collaboration au top ! Je n'hésiterai pas à refaire appel à toi. Bravo et merci !",
       image: "./img/client/stephane.jpeg",
     },
     {
@@ -21,7 +21,7 @@ const TestimonialSlider = () => {
       name: "Fanny Fuchs",
       position: "Société de gestion immobilière",
       review:
-        "Un grand merci à David pour la réalisation impeccable du site vitrine de Guest Season, notre société de location immobilière à Strasbourg. Sa maîtrise en création de site et son expertise en SEO ont vraiment fait la différence. Grâce à lui, notre présence en ligne est solide et professionnelle. Je suis plus que satisfait de son travail et le recommande vivement !",
+        "Merci pour la réalisation impeccable du site de Guest Season, notre société de location immobilière à Strasbourg. Sa maîtrise en création de site et son expertise en SEO ont vraiment fait la différence. Grâce à lui, notre présence en ligne est solide et professionnelle. Je suis plus que satisfaite de son travail et le recommande vivement !",
       image: "./img/client/fanny.jpg",
     },
   ];

@@ -55,7 +55,7 @@ const About = () => {
           <h1 className="text-3xl mb-5">Educations</h1>
           <Curriculum
             year={"2009 - 2012"}
-            title={"Licence Phsysique - Mathématiques appliqués"}
+            title={"Licence Physique - Mathématiques appliqués"}
             places={"Université de Strasbourg"}
           />
           <Curriculum

@@ -11,7 +11,7 @@ const TypeWrite = () => {
     <motion.div
       ref={ref}
       className="  h-[1
-        20px]  flex flex-row justify-start items-center rounded-3xl  w-full py-5 px-2  "
+        20px]  flex flex-row lg:justify-start items-center rounded-3xl  w-full py-5 px-2 md:justify-center  "
       style={{
         transform: isInView ? "none" : " opacity(0.7)",
 

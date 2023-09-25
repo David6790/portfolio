@@ -17,6 +17,8 @@ module.exports = {
           "linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05))",
         "card-gradiant":
           "linear-gradient(to bottom left,rgba(255, 255, 255, 0.1),transparent)",
+        "form-gradiant":
+          "linear-gradient(to bottom right,rgba(255, 255, 255, 0.1),transparent)",
       },
       fontFamily: {
         "main-font": "'Inter', sans-serif",

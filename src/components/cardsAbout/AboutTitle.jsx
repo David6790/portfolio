@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const AboutTitle = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
   const words = ["Expertise & Expériences"];
   return (
     <div className=" w-9/12 flex flex-col justify-between   ">
@@ -38,11 +38,14 @@ const AboutTitle = () => {
         <h1 className=" text-3xl mb-3 ">
           David <span className=" text-myBlue">Long Bin</span>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          fugiat voluptatibus praesentium at consequuntur quibusdam sapiente
-          eligendi maxime aperiam eos dolorum a velit ipsam neque ex eum, odio
-          deserunt laudantium.Lore
+        <p className=" text-justify text-sm">
+          Avec une formation solide en Physique, Mathématiques et Informatique
+          de l'Université de Strasbourg, j'ai évolué pour devenir un intégrateur
+          web spécialisé en React grâce à OpenClassrooms. Mon parcours m'a doté
+          d'une approche rigoureuse et pragmatique. Que ce soit dans la
+          conception de solutions technologiques ou la création d'applications
+          web, je mets toujours en avant la précision et l'efficacité pour
+          répondre aux besoins spécifiques de chaque projet.
         </p>
       </motion.div>
     </div>

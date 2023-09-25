@@ -16,7 +16,7 @@ const Project = ({ imageSrc, mission, name, handleClick }) => {
 
         opacity: isInView ? 1 : 0,
 
-        transition: "all ease-in 1.2s ",
+        transition: "all ease-in 0.8s ",
       }}
       className="w-[350px] h-[350px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] p-5  flex flex-col justify-between group cursor-pointer"
     >

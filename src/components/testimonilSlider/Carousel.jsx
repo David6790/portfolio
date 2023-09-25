@@ -8,7 +8,7 @@ const Carousel = ({ testimonials }) => {
 
     autoplay: true,
     cssEase: "ease-out",
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     arrows: true,
   };
 

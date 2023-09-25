@@ -13,7 +13,7 @@ const PersonnalCard = () => {
     <NavLink to="/about">
       <motion.div
         ref={ref}
-        className="  group flex flex-row w-full justify-between items-center gap-11 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
+        className="  group flex flex-row w-full lg:justify-between md:justify-evenly items-center gap-11 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
         style={{
           transform: isInView ? "none" : "opacity:0  ",
           opacity: isInView ? 1 : 0,
@@ -21,14 +21,14 @@ const PersonnalCard = () => {
           transition: "all  ease-in 0.5s ",
         }}
       >
-        <div className=" h-[100%] w-[50%] ">
+        <div className=" lg:h-[100%] md:h-[50%] lg:w-[50%] md:w-[25%] ">
           <img
             src="./img/david5.jpg"
             alt="photoDavid"
-            className=" w-[100%] h-[100%] rounded-tl-3xl rounded-br-3xl  object-cover"
+            className=" w-[100%] h-[100%]  rounded-tl-3xl rounded-br-3xl  object-cover"
           />
         </div>
-        <div className=" flex flex-col justify-between w-[50%]  h-full ">
+        <div className=" flex flex-col justify-between w-[50%] md:gap-4  h-full ">
           <div>
             <h2 className=" mb-5 mt-12 ">DEVELOPPEUR WEB</h2>
             <h1 className=" text-4xl mb-5">

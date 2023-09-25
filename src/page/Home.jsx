@@ -12,16 +12,16 @@ const Home = () => {
   return (
     <div>
       <Layout>
-        <div className=" flex flex-row w-[100%] justify-between gap-8  h-[350px] mb-10 ">
-          <div className="w-8/12 ">
+        <div className=" flex lg:flex-row w-[100%] justify-between gap-8  lg:h-[350px]   mb-10 md:flex-col ">
+          <div className="w-8/12 md:w-full ">
             <PersonnalCard />
           </div>
-          <div className="  w-6/12 flex flex-col justify-start gap-10 0 h-full  ">
+          <div className="  lg:w-6/12 flex flex-col justify-start gap-10 0 h-full  md:w-full  ">
             <TypeWrite />
             <AboutMe />
           </div>
         </div>
-        <div className="flex flex-row  justify-between w-full  h-[250px] mb-10 gap-8">
+        <div className="flex flex-row  justify-between w-full  h-[250px]  mb-10 gap-8">
           <div className=" w-8/12">
             <MyWorks />
           </div>

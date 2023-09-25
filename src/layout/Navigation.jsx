@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className=" w-4/12">
+    <div className=" lg:w-4/12 md:w-6/12">
       <ul className=" w-full flex flex-row justify-around items-center  ">
         <NavLink
           to="/"
