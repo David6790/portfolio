@@ -6,7 +6,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   return (
     <AnimatePresence>
       <motion.div
-        className="fixed top-0 left-0 w-screen h-screen bg-modalBg z-10 p-5"
+        className="fixed top-0 left-0 w-screen h-screen bg-modalBg z-10 lg:p-20 md:p-20 sm:p-20 p-5"
         initial={{
           opacity: 0,
           scale: 0,
@@ -28,19 +28,19 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
           },
         }}
       >
-        <div className=" w-full h-full rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-10 ">
-          <div className=" flex flex-row h-[10%]  justify-between mb-5">
+        <div className=" w-full h-full rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] lg:p-10 md:p-10 sm:p-10 p-5 ">
+          <div className=" flex flex-row h-[10%]  justify-between items-center mb-5">
             <h1 className=" text-3xl text-myBlue">{project.name}</h1>
             <button onClick={onClose} className="text-sm text-white underline">
               Fermer
             </button>
           </div>
           <div className=" flex flex-row w-full h-[90%] p-2 cursor-pointer   ">
-            <div className="flex flex-row w-[100%] h-[100%] justify-between gap-10 p-2 ">
+            <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col w-[100%] h-[100%] justify-between gap-10 p-2 ">
               <img
                 src={project.image}
                 alt={project.name}
-                className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 w-[50%] object-contain  "
+                className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 lg:w-[50%] md:w-[50%] sm:w-[50%] w-[80%]  object-contain  "
               />
 
               <div className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 overflow-scroll">
