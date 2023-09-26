@@ -36,7 +36,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             </button>
           </div>
           <div className=" flex flex-row w-full h-[90%] p-2 cursor-pointer   ">
-            <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col w-[100%] h-[100%] justify-between gap-10 p-2 ">
+            <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col w-[100%] h-[100%] justify-between gap-10 p-2 ">
               <img
                 src={project.image}
                 alt={project.name}
