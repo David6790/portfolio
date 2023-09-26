@@ -15,13 +15,13 @@ const About = () => {
 
   return (
     <Layout>
-      <div className=" w-full lg:h-[300px] md:h-[400px] sm:h-[500px] flex flex-row lg:gap-10 md:gap-3 sm:gap-3 mb-10 ">
+      <div className=" w-full lg:h-[300px] md:h-[400px] sm:h-[500px] flex lg:flex-row md:flex-row sm:flex-row flex-col lg:gap-10 md:gap-3 sm:gap-3 mb-10 ">
         <Portrait />
         <AboutTitle />
       </div>
       <motion.div
         ref={ref}
-        className="w-full lg:h-[400px] md:h-[400px] sm:h-[450px] flex flex-row gap-10 mb-10 "
+        className="w-full lg:h-[400px] md:h-[400px] sm:h-[450px] flex lg:flex-row md:lg:flex-row sm:lg:flex-row flex-col gap-10 mb-10 "
         style={{
           transform: isInView ? "none" : "opacity:0  ",
           opacity: isInView ? 1 : 0,
@@ -29,7 +29,7 @@ const About = () => {
           transition: "all 0.8s  ease-in 0.8s ",
         }}
       >
-        <div className=" w-6/12 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full">
+        <div className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full">
           <h1 className="lg:text-3xl md:text-3xl  sm:text-2xl mb-5 flex flex-col justify-evenly">
             Expériences
           </h1>
@@ -51,7 +51,7 @@ const About = () => {
             places={"Site vitrine, optimisation SEO, design d'interface "}
           />
         </div>
-        <div className=" w-6/12 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full">
+        <div className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full ">
           <h1 className="lg:text-3xl md:text-3xl  sm:text-2xl mb-5">
             Educations
           </h1>
@@ -72,11 +72,11 @@ const About = () => {
           />
         </div>
       </motion.div>
-      <div className=" w-full flex flex-row justify-between h-[250px] gap-10">
-        <div className="w-5/12 h-full">
+      <div className=" w-full flex lg:flex-row md:flex-row  sm:flex-row  flex-col justify-between lg:h-[250px] md:h-[250px] sm:h-[250px] h-full gap-10">
+        <div className="lg:w-5/12 md:w-5/12 sm:w-5/12 w-full h-full">
           <Socials />
         </div>
-        <div className=" w-7/12 h-full">
+        <div className=" lg:w-5/12 md:w-5/12 sm:w-5/12 w-full h-full">
           <ContactCard />
         </div>
       </div>

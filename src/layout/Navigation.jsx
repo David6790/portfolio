@@ -1,44 +1,83 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import IconCta from "./IconCta";
 
 const Navigation = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div className=" lg:w-4/12 md:w-6/12 sm:w-8/12 w-full">
-      <ul className=" w-full flex flex-row justify-around items-center  ">
-        <NavLink
-          to="/"
-          className={(nav) =>
-            nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
-          }
+    <>
+      <div className=" lg:w-4/12 md:w-6/12 sm:w-8/12 w-full flex flex-row justify-end">
+        <ul className=" w-full lg:flex md:flex sm:hidden hidden flex-row justify-around items-center   ">
+          <NavLink
+            to="/"
+            className={(nav) =>
+              nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
+            }
+          >
+            <li>Home</li>
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={(nav) =>
+              nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
+            }
+          >
+            <li>About</li>
+          </NavLink>
+          <NavLink
+            to="/works"
+            className={(nav) =>
+              nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
+            }
+          >
+            <li>Works</li>
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={(nav) =>
+              nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
+            }
+          >
+            <li>Contacts</li>
+          </NavLink>
+        </ul>
+        <button
+          className="lg:hidden md:hidden sm:block block"
+          onClick={handleClick}
         >
-          <li>Home</li>
-        </NavLink>
-        <NavLink
-          to="/about"
-          className={(nav) =>
-            nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
-          }
-        >
-          <li>About</li>
-        </NavLink>
-        <NavLink
-          to="/works"
-          className={(nav) =>
-            nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
-          }
-        >
-          <li>Works</li>
-        </NavLink>
-        <NavLink
-          to="/contact"
-          className={(nav) =>
-            nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
-          }
-        >
-          <li>Contacts</li>
-        </NavLink>
-      </ul>
-    </div>
+          <i className="fa-solid fa-bars text-3xl"></i>
+        </button>
+        {isOpen && (
+          <div className="fixed top-0 right-0 h-1/2 w-1/3 rounded-tl-3xl rounded-bl-3xl shadow-md  bg-opacity-50 bg-black backdrop-blur-md  border-solid border-[#444] border-[1px] z-50 p-10 group">
+            <div className="flex flex-row justify-between items-center">
+              <IconCta />
+              <button className=" text-sm" onClick={handleClick}>
+                X
+              </button>
+            </div>
+
+            <ul className="flex flex-col justify-center items-start h-full space-y-8 ">
+              <NavLink to="/" className=" text-myGrey hover:text-white ">
+                Home
+              </NavLink>
+              <NavLink to="/about" className=" text-myGrey hover:text-white ">
+                About
+              </NavLink>
+              <NavLink to="/works" className=" text-myGrey hover:text-white ">
+                Works
+              </NavLink>
+              <NavLink to="/contact" className=" text-myGrey hover:text-white ">
+                Contacts
+              </NavLink>
+            </ul>
+          </div>
+        )}
+      </div>
+    </>
   );
 };
 

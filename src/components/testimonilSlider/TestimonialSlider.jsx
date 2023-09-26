@@ -12,7 +12,7 @@ const TestimonialSlider = () => {
     },
     {
       name: "Killian Petit Grazini",
-      position: "Hereux mari d'Elisa depuis 2023",
+      position: "Heureux mari d'Elisa depuis 2023",
       review:
         "Un immense merci à David pour la réalisation de notre site de faire-part de mariage ! Sa disponibilité et son attitude - tout est possible - nous ont vraiment touchés. Même face à nos demandes parfois exigeantes, il a toujours été arrangeant. Un vrai bonheur de collaborer avec lui. Je recommande les yeux fermés !",
       image: "./img/client/killian.jpeg",

@@ -49,7 +49,7 @@ const Works = () => {
           <div className="  flex flex-row justify-center items-center mb-10 mt-10">
             <motion.h1
               ref={ref}
-              className=" text-4xl"
+              className=" lg:text-4xl md:text-4xl sm:text-3xl text-2xl"
               style={{
                 transform: isInView ? "none" : "opacity:0  ",
                 opacity: isInView ? 1 : 0,
@@ -72,7 +72,7 @@ const Works = () => {
             <TestimonialSlider />
           </motion.div>
           <div className="  flex flex-row justify-center items-center mb-10 mt-20">
-            <h1 className=" text-4xl">
+            <h1 className=" lg:text-4xl md:text-4xl sm:text-3xl text-2xl">
               LES <span className=" text-myBlue">PROJETS</span> RÉALISÉS
             </h1>
           </div>

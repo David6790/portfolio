@@ -23,7 +23,7 @@ const AboutMe = () => {
         <img
           src={"./img/signature.png"}
           alt="signature"
-          className="lg:w-full md:w-60 sm:w-60 md:mt-[-90px] sm:mt-[-90px] lg:mt-0 mt-[-120px]   "
+          className="lg:w-full md:w-96     sm:w-60 md:mt-[-144px] sm:mt-[-90px] lg:mt-0 mt-[-120px]   "
         />
       </div>
     </motion.div>
