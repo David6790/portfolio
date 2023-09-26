@@ -21,7 +21,7 @@ const About = () => {
       </div>
       <motion.div
         ref={ref}
-        className="w-full lg:h-[400px] md:h-[400px] sm:h-[450px] flex lg:flex-row md:lg:flex-row sm:lg:flex-row flex-col gap-10 mb-10 "
+        className="w-full lg:h-[400px] md:h-[400px] sm:h-[450px] flex lg:flex-row md:flex-row sm:flex-row flex-col gap-10 mb-10 "
         style={{
           transform: isInView ? "none" : "opacity:0  ",
           opacity: isInView ? 1 : 0,
@@ -94,7 +94,7 @@ const About = () => {
         <div className="lg:w-5/12 md:w-5/12 sm:w-5/12 w-full h-full">
           <Socials />
         </div>
-        <div className=" lg:w-7/12 md:w-5/12 sm:w-5/12 w-full h-full">
+        <div className=" lg:w-7/12 md:w-7/12 sm:w-7/12 w-full h-full">
           <ContactCard />
         </div>
       </div>
