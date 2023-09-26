@@ -11,7 +11,7 @@ const ContactCard = () => {
   return (
     <NavLink to="/contact">
       <motion.div
-        className=" flex flex-col justify-evenly h-full  w-full rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] lg:p-10 md:p-10 sm:p-5 p-10 group"
+        className=" flex flex-col justify-evenly h-full  w-full  rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] lg:p-10 md:p-10 sm:p-5 p-10 group"
         ref={ref}
         style={{
           transform: isInView ? "none" : "opacity:0 translateX(200px) ",

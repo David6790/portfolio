@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 
 const TypeWrite = () => {
-  const words = ["Développeur.", "Freelance.", "Une salope."];
+  const words = ["Développeur.", "Freelance."];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   return (

@@ -26,10 +26,19 @@ const About = () => {
           transform: isInView ? "none" : "opacity:0  ",
           opacity: isInView ? 1 : 0,
 
-          transition: "all 0.8s  ease-in 0.8s ",
+          transition: "all   ease-in 0.8s ",
         }}
       >
-        <div className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full">
+        <motion.div
+          ref={ref}
+          style={{
+            transform: isInView ? "none" : "translateX:-200px  ",
+            x: isInView ? 0 : -200,
+
+            transition: "all   ease-in 0.8s ",
+          }}
+          className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full"
+        >
           <h1 className="lg:text-3xl md:text-3xl  sm:text-2xl mb-5 flex flex-col justify-evenly">
             Expériences
           </h1>
@@ -50,8 +59,17 @@ const About = () => {
             title={"Créateur de Solutions Web Wix "}
             places={"Site vitrine, optimisation SEO, design d'interface "}
           />
-        </div>
-        <div className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full ">
+        </motion.div>
+        <motion.div
+          ref={ref}
+          style={{
+            transform: isInView ? "none" : "translateX:200px  ",
+            x: isInView ? 0 : 200,
+
+            transition: "all   ease-in 0.8s ",
+          }}
+          className=" lg:w-6/12 md:w-6/12 sm:w-6/12 w-full p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
+        >
           <h1 className="lg:text-3xl md:text-3xl  sm:text-2xl mb-5">
             Educations
           </h1>
@@ -70,13 +88,13 @@ const About = () => {
             title={"Intégrateur Web - React "}
             places={"OpenClassrooms"}
           />
-        </div>
+        </motion.div>
       </motion.div>
       <div className=" w-full flex lg:flex-row md:flex-row  sm:flex-row  flex-col justify-between lg:h-[250px] md:h-[250px] sm:h-[250px] h-full gap-10">
         <div className="lg:w-5/12 md:w-5/12 sm:w-5/12 w-full h-full">
           <Socials />
         </div>
-        <div className=" lg:w-5/12 md:w-5/12 sm:w-5/12 w-full h-full">
+        <div className=" lg:w-7/12 md:w-5/12 sm:w-5/12 w-full h-full">
           <ContactCard />
         </div>
       </div>

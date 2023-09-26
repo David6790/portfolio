@@ -6,7 +6,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   return (
     <AnimatePresence>
       <motion.div
-        className="fixed top-0 left-0 w-screen h-screen bg-modalBg z-10 p-20"
+        className="fixed top-0 left-0 w-screen h-screen bg-modalBg z-10 p-5"
         initial={{
           opacity: 0,
           scale: 0,
