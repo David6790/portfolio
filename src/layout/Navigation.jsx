@@ -62,9 +62,12 @@ const Navigation = () => {
             animate={{
               opacity: 1,
               scale: 1,
+              originX: 6,
+              originY: -3,
+
               transition: {
                 ease: "easeOut",
-                duration: 0.45,
+                duration: 0.6,
               },
             }}
             exit={{
@@ -84,18 +87,10 @@ const Navigation = () => {
             </div>
 
             <ul className="flex flex-col justify-center items-start h-full space-y-8 text-xl ">
-              <NavLink to="/" className=" text-myGrey hover:text-white ">
-                Home
-              </NavLink>
-              <NavLink to="/about" className=" text-myGrey hover:text-white ">
-                About
-              </NavLink>
-              <NavLink to="/works" className=" text-myGrey hover:text-white ">
-                Works
-              </NavLink>
-              <NavLink to="/contact" className=" text-myGrey hover:text-white ">
-                Contacts
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/about">About</NavLink>
+              <NavLink to="/works">Works</NavLink>
+              <NavLink to="/contact">Contacts</NavLink>
             </ul>
           </motion.div>
         )}
