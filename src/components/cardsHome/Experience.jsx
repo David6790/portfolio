@@ -15,7 +15,7 @@ const Experience = () => {
 
         opacity: isInView ? 1 : 0,
         scale: isInView ? 1 : 1,
-        transition: "all  ease-in 0.5s ",
+        transition: "all  ease-in 0.8s ",
       }}
     >
       <div className=" lg:h-full md:h-[40%] sm:h-[40%] h-[40%] lg:w-[40%] md:w-[100%] sm:w-[100%] w-[100%]  flex lg:flex-col md:flex-col sm:flex-col flex-row lg:justify-center md:justify-center sm:justify-center justify-evenly items-center text-center rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] pl-1 pr-1 py-2 lg:mb-0 md:mb-0 sm:mb-0 mb-5">

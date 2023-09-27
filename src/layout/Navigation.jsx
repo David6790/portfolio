@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import IconCta from "./IconCta";
+import { motion } from "framer-motion";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,29 @@ const Navigation = () => {
           <i className="fa-solid fa-bars text-3xl"></i>
         </button>
         {isOpen && (
-          <div className="fixed top-0 right-0 h-1/2 w-1/3 rounded-tl-3xl rounded-bl-3xl shadow-md  bg-opacity-50 bg-black backdrop-blur-md  border-solid border-[#444] border-[1px] z-50 p-10 group">
+          <motion.div
+            className="fixed top-0 right-0 h-2/3 w-2/3 rounded-tl-3xl rounded-bl-3xl shadow-md  bg-opacity-50 bg-black backdrop-blur-md  border-solid border-[#444] border-[1px] z-50 p-10 group"
+            initial={{
+              opacity: 0,
+              scale: 0,
+            }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              transition: {
+                ease: "easeOut",
+                duration: 0.45,
+              },
+            }}
+            exit={{
+              opacity: 0,
+              scale: 0.75,
+              transition: {
+                ease: "easeIn",
+                duration: 0.55,
+              },
+            }}
+          >
             <div className="flex flex-row justify-between items-center">
               <IconCta />
               <button className=" text-sm" onClick={handleClick}>
@@ -60,7 +83,7 @@ const Navigation = () => {
               </button>
             </div>
 
-            <ul className="flex flex-col justify-center items-start h-full space-y-8 ">
+            <ul className="flex flex-col justify-center items-start h-full space-y-8 text-xl ">
               <NavLink to="/" className=" text-myGrey hover:text-white ">
                 Home
               </NavLink>
@@ -74,7 +97,7 @@ const Navigation = () => {
                 Contacts
               </NavLink>
             </ul>
-          </div>
+          </motion.div>
         )}
       </div>
     </>
