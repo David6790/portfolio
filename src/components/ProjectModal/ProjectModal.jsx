@@ -39,13 +39,17 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
           </div>
           <div className=" flex flex-row w-full h-[90%] p-2 cursor-pointer   ">
             <div className="flex lg:flex-row flex-col w-[100%] h-[100%] justify-between gap-10 p-2 ">
-              <img
-                src={project.image}
-                alt={project.name}
-                className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 lg:w-[50%]  lg:h-auto h-[200px]  object-contain  "
-              />
+              <div className="lg:w-6/12 w-full ">
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 lg:w-[100%]  lg:h-full h-[200px] w-[100%]  object-contain  "
+                  />
+                </a>
+              </div>
 
-              <div className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 overflow-scroll">
+              <div className=" lg:w-6/12 w-full rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 overflow-scroll">
                 <h1 className=" text-xl text-myBlue mb-5">
                   Contexte de la mission :
                 </h1>

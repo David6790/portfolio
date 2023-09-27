@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 
-const ContactItems = ({ mainTitle, logo, info1, info2 }) => {
+const ContactItems = ({ mainTitle, logo, info1, info2, mailto }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   return (
@@ -17,7 +17,7 @@ const ContactItems = ({ mainTitle, logo, info1, info2 }) => {
       }}
     >
       <div className="rounded-xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] w-[60px] h-[60px] flex flex-row justify-center items-center text-2xl ">
-        {logo}
+        {mailto ? <a href="mailto:david.lb90@gmail.com">{logo}</a> : logo}
       </div>
       <div className=" flex flex-col justify-between">
         <h2 className=" text-myGrey">{mainTitle}</h2>

@@ -12,18 +12,21 @@ const ContactInfo = () => {
           mainTitle={"Ecrivez-moi"}
           logo={<i className="fa-regular fa-envelope"></i>}
           info1={"david.lb90@gmail.com"}
+          mailto={true}
         />
         <ContactItems
           mainTitle={"Contactez-moi"}
           logo={<i className="fa-solid fa-phone"></i>}
           info1={"06.29.84.84.36"}
           info2={""}
+          mailto={false}
         />
         <ContactItems
           mainTitle={"Localisation"}
           logo={<i className="fa-solid fa-location-dot"></i>}
           info1={"Strasbourg, France"}
           info2={""}
+          mailto={false}
         />
       </div>
     </div>
