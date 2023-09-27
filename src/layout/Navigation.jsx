@@ -11,7 +11,7 @@ const Navigation = () => {
   };
   return (
     <>
-      <div className=" lg:w-4/12 md:w-6/12 sm:w-8/12 w-full flex flex-row justify-end">
+      <div className=" lg:w-8/12 md:w-8/12 sm:w-8/12 w-full flex flex-row justify-end">
         <ul className=" w-full lg:flex md:flex sm:hidden hidden flex-row justify-around items-center   ">
           <NavLink
             to="/"
@@ -19,7 +19,7 @@ const Navigation = () => {
               nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
             }
           >
-            <li>Home</li>
+            <li>Accueil</li>
           </NavLink>
           <NavLink
             to="/about"
@@ -27,7 +27,7 @@ const Navigation = () => {
               nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
             }
           >
-            <li>About</li>
+            <li>A propos de moi</li>
           </NavLink>
           <NavLink
             to="/works"
@@ -35,7 +35,7 @@ const Navigation = () => {
               nav.isActive ? "text-white" : " text-[#9f9f9f] hover:text-white"
             }
           >
-            <li>Works</li>
+            <li>Mes projets</li>
           </NavLink>
           <NavLink
             to="/contact"
@@ -85,9 +85,9 @@ const Navigation = () => {
             </div>
 
             <ul className="flex flex-col justify-center items-start h-full space-y-8 text-xl ">
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/about">About</NavLink>
-              <NavLink to="/works">Works</NavLink>
+              <NavLink to="/">Accueil</NavLink>
+              <NavLink to="/about">A propos de moi</NavLink>
+              <NavLink to="/works">Mes projets</NavLink>
               <NavLink to="/contact">Contacts</NavLink>
             </ul>
           </motion.div>
