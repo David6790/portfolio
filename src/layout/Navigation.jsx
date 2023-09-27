@@ -57,13 +57,11 @@ const Navigation = () => {
             className="fixed top-0 right-0 h-2/3 w-2/3 rounded-tl-3xl rounded-bl-3xl shadow-md  bg-opacity-50 bg-black backdrop-blur-md  border-solid border-[#444] border-[1px] z-50 p-10 group"
             initial={{
               opacity: 0,
-              scale: 0,
+              x: "200px",
             }}
             animate={{
               opacity: 1,
-              scale: 1,
-              originX: 6,
-              originY: 0,
+              x: 0,
 
               transition: {
                 ease: "easeOut",
