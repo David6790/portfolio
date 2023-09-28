@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
@@ -6,10 +6,12 @@ import { useInView } from "framer-motion";
 const ContactForm = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
+  const [isLoading, setIsLoading] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsLoading(true);
 
     emailjs
       .sendForm(
@@ -22,6 +24,7 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
+          setIsLoading(false);
         },
         (error) => {
           console.log(error.text);
@@ -79,7 +82,7 @@ const ContactForm = () => {
           name="valider"
           className=" rounded-xl bg-form-gradiant bg-card  w-[150px] m-auto  p-5 "
         >
-          Envoyer
+          {isLoading ? "En cours ..." : "Envoyer"}
         </button>
       </form>
     </motion.div>
