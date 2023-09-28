@@ -23,16 +23,23 @@ const Socials = () => {
           href="https://www.instagram.com/david_long_bin/"
           rel="noreferrer"
           target="_blank"
+          aria-label="Lien vers instagram"
         >
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/David6790" rel="noreferrer" target="_blank">
+        <a
+          href="https://github.com/David6790"
+          rel="noreferrer"
+          target="_blank"
+          aria-label="Lien vers github"
+        >
           <i className="fa-brands fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/david-long-bin-65a261137/"
           rel="noreferrer"
           target="_blank"
+          aria-label="Lien vers linkedin"
         >
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
