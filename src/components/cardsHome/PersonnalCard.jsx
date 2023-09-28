@@ -23,7 +23,7 @@ const PersonnalCard = () => {
       >
         <div className=" lg:h-[100%] md:h-[50%] sm:h[50%] h-[50%] lg:w-[50%] md:w-[25%] sm:w-[25%] w-[50%] ">
           <img
-            src="./img/david5.jpg"
+            src="./img/david5.webp"
             alt="photoDavid"
             className=" w-[100%] h-[100%]  rounded-tl-3xl rounded-br-3xl  object-cover"
           />

@@ -47,7 +47,7 @@ const About = () => {
             title={
               "Spécialiste en Intégration Technologique pour la Restauration"
             }
-            places={"Café de l'Opéra de Strasbourg"}
+            places={"COTE COUR groupe de restaurant à Strasbourg"}
           />
           <Curriculum
             year={"2018 - 2022"}
