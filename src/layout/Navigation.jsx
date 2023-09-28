@@ -49,6 +49,7 @@ const Navigation = () => {
         <button
           className="lg:hidden md:hidden sm:block block"
           onClick={handleClick}
+          aria-label="menu"
         >
           <i className="fa-solid fa-bars text-3xl"></i>
         </button>
