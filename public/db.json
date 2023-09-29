@@ -11,6 +11,15 @@
     },
     {
       "id": 2,
+      "name": "Prodan Bati Alsace",
+      "image": "./img/projects/prodan.webp",
+      "typeOfMission": "Intégration et design Web",
+      "missionContext": "La société Prodan Bati Alsace, établie à Strasbourg depuis 2014, est une entreprise reconnue dans le secteur du BTP. Spécialisée dans les travaux de rénovation de second œuvre, elle offre une gamme complète de services, allant de la peinture au carrelage, en passant par l'isolation intérieure et extérieure, la pose de sol stratifié et de mur. Avec la qualification QUALIBAT - RGE et des garanties décénales couvrant l'ensemble de ses activités, l'entreprise a su se forger une solide réputation dans la région. Face à une demande croissante et à l'évolution constante du secteur, Fanny Fuchs a ressenti le besoin de renforcer sa présence en ligne et de disposer d'un site web à la hauteur de son expertise.",
+      "technicalChallenges": "Le principal défi technique résidait dans la création d'un site web qui reflète non seulement le professionnalisme et l'expertise de la société Prodan Bati Alsace, mais aussi la diversité de ses services. Il était essentiel de concevoir une interface utilisateur intuitive, permettant aux visiteurs de naviguer facilement entre les différents services offerts, tout en mettant en avant les qualifications et garanties de l'entreprise. De plus, étant donné l'importance du matériel dans l'exécution des chantiers, une section dédiée à la présentation du matériel utilisé par l'entreprise a été intégrée, offrant ainsi une transparence totale aux clients potentiels.",
+      "link": "https://www.prodan-bati-alsace.fr/"
+    },
+    {
+      "id": 3,
       "name": "Booki",
       "image": "./img/projects/booki.webp",
       "typeOfMission": "Intégration Web",
@@ -19,7 +28,7 @@
       "link": "https://david6790.github.io/Projet_3_v2/"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Oh My Food",
       "image": "./img/projects/ohMyFood.webp",
       "typeOfMission": "Intégration / Animation Design",
@@ -28,7 +37,7 @@
       "link": "https://david6790.github.io/projet-4-OC/"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Portfolio Sophie Bluel",
       "image": "./img/projects/sophieBluel.webp",
       "typeOfMission": "Développement Javascript",
@@ -37,7 +46,7 @@
       "link": "https://github.com/David6790/oc-p6-javascript"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Menu Maker by Qwenta",
       "image": "./img/projects/qwenta.webp",
       "typeOfMission": "Gestion de projet Agile.",
@@ -45,7 +54,7 @@
       "technicalChallenges": "Ce projet a présenté plusieurs défis techniques et organisationnels. Premièrement, la mise en place d'un système de veille efficace pour recueillir des idées pertinentes pour le projet, tout en garantissant sa réutilisabilité pour l'équipe. Deuxièmement, la détermination précise des spécifications techniques du \"Menu Maker\" basée sur les documents fournis, tout en justifiant chaque choix pour assurer la satisfaction du client. Enfin, la planification du projet était essentielle : la configuration d'un outil de gestion de projet, la création d'un tableau Kanban détaillé et la garantie que toutes les tâches étaient clairement définies et catégorisées. Chacun de ces défis nécessitait une attention méticuleuse aux détails, une communication ouverte avec l'équipe et une vision claire de l'objectif final, tout en respectant les principes AGILE pour une gestion de projet flexible et adaptative."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Kasa",
       "image": "./img/projects/kasa.webp",
       "typeOfMission": "Développement React.js",
@@ -54,7 +63,7 @@
       "link": "https://willowy-biscochitos-d434da.netlify.app/"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Nina Carducci",
       "image": "./img/projects/nina.webp",
       "typeOfMission": "Référencement SEO",
@@ -63,7 +72,7 @@
       "link": "https://david6790.github.io/oc-p9/"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "724 Events",
       "image": "./img/projects/724.webp",
       "typeOfMission": "Débug - Tests Unitaires",
@@ -72,7 +81,7 @@
       "link": "https://unique-dodol-538995.netlify.app/"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Argent-Bank",
       "image": "./img/projects/argent.webp",
       "typeOfMission": "Développement React - Redux",

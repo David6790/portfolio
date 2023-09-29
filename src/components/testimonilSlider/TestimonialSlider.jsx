@@ -19,9 +19,9 @@ const TestimonialSlider = () => {
     },
     {
       name: "Fanny Fuchs",
-      position: "Société de gestion immobilière",
+      position: "Prodan Bati Alsace",
       review:
-        "Merci pour la réalisation impeccable du site de Guest Season, notre société de location immobilière à Strasbourg. Sa maîtrise en création de site et son expertise en SEO ont vraiment fait la différence. Grâce à lui, notre présence en ligne est solide et professionnelle. Je suis plus que satisfaite de son travail et le recommande vivement !",
+        "Merci pour la réalisation impeccable du site de Prodan Bati Alsace, notre société de BTP. Sa maîtrise en création de site et son expertise en SEO ont vraiment fait la différence. Grâce à lui, notre présence en ligne est solide et professionnelle. Je suis plus que satisfaite de son travail et le recommande vivement !",
       image: "./img/client/fanny.webp",
     },
   ];
