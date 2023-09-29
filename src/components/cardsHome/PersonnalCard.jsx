@@ -13,7 +13,7 @@ const PersonnalCard = () => {
     <NavLink to="/about">
       <motion.div
         ref={ref}
-        className="  group flex flex-row w-full lg:justify-between md:justify-evenly sm:justify-evenly justify-between items-center gap-11 p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
+        className="  group flex flex-row w-full lg:justify-between md:justify-evenly sm:justify-evenly justify-between items-center lg:gap-10 md:gap-8 sm:gap-5 gap-5   p-[20px] rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] h-full "
         style={{
           transform: isInView ? "none" : "opacity:0  ",
           opacity: isInView ? 1 : 0,
@@ -28,10 +28,10 @@ const PersonnalCard = () => {
             className=" w-[100%] h-[100%]  rounded-tl-3xl rounded-br-3xl  object-cover"
           />
         </div>
-        <div className=" flex flex-col justify-between w-[50%] md:gap-4  h-full ">
+        <div className=" flex flex-col justify-between w-[50%] md:gap-4  h-full  ">
           <div>
-            <h2 className=" mb-5 mt-12 ">DEVELOPPEUR WEB</h2>
-            <h1 className=" text-4xl lg:mb-5 md:mb-5 sm:mb-5 mb-0">
+            <h2 className=" mb-5 lg:mt-5 md:mt-5 sm:mt-5 ">DEVELOPPEUR WEB</h2>
+            <h1 className=" lg:text-4xl md:text-4xl sm:text-4xl text-2xl lg:mb-5 md:mb-5 sm:mb-5 mb-5">
               <span className="text-myBlue">David </span>
               <span>Long Bin.</span>
             </h1>
@@ -40,7 +40,12 @@ const PersonnalCard = () => {
             </p>
           </div>
 
-          <div className=" w-full flex flex-row justify-end opacity-50 group-hover:opacity-100  ">
+          <div className=" w-full flex flex-row lg:justify-start md:justify-start justify-between  items-center opacity-50 group-hover:opacity-100 h-full  ">
+            <div className="h-full  flex flex-row justify-center items-center ">
+              <p className=" lg:text-base md:text-base sm:text-base text-xs  lg:mr-5 md:mr-3 ">
+                À PROPOS DE MOI
+              </p>
+            </div>
             <IconCta />
           </div>
         </div>

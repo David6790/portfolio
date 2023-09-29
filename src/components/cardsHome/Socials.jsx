@@ -18,7 +18,7 @@ const Socials = () => {
         transition: "all ease-in 0.5s ",
       }}
     >
-      <div className=" text-white text-4xl flex flex-row justify-evenly mb-5 border-solid border-[#444] rounded-2xl mx-5 sm:mx-0 p-5 border-[1px]">
+      <div className=" text-white text-4xl flex flex-row justify-evenly mb-5 border-solid border-[#444] rounded-2xl  sm:mx-0 p-5 mx-0 border-[1px]">
         <a
           href="https://www.instagram.com/david_long_bin/"
           rel="noreferrer"
@@ -44,7 +44,7 @@ const Socials = () => {
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
-      <div className="px-5 ">
+      <div>
         <h1 className=" text-2xl mb-5">MES RÉSEAUX</h1>
         <p className="text-myBlue  ">FOLLOW ME</p>
       </div>
