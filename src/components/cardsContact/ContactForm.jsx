@@ -22,7 +22,6 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           form.current.reset();
           setIsLoading(false);
         },

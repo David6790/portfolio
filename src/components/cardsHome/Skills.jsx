@@ -8,10 +8,26 @@ const Skills = () => {
 
   const isInView = useInView(ref, { once: false });
   const skills = [
-    { name: <i className="fa-brands fa-html5"></i>, level: 95 },
-    { name: <i className="fa-brands fa-css3"></i>, level: 95 },
-    { name: <i className="fa-brands fa-js"></i>, level: 80 },
-    { name: <i className="fa-brands fa-react"></i>, level: 75 },
+    {
+      name: <i className="fa-brands fa-html5"></i>,
+      level: 95,
+      description: "HTML 5",
+    },
+    {
+      name: <i className="fa-brands fa-css3"></i>,
+      level: 95,
+      description: "CSS, Tailwind CSS, SASS",
+    },
+    {
+      name: <i className="fa-brands fa-js"></i>,
+      level: 80,
+      description: "Javascript Vanilla",
+    },
+    {
+      name: <i className="fa-brands fa-react"> </i>,
+      level: 75,
+      description: "React.js, Redux, Redux Toolkit",
+    },
   ];
 
   return (
@@ -31,7 +47,12 @@ const Skills = () => {
       </h1>
       <div className=" flex flex-col w-full h-full">
         {skills.map((skill) => (
-          <SkillBar key={skill.name} skill={skill.name} level={skill.level} />
+          <SkillBar
+            key={crypto.randomUUID()}
+            skill={skill.name}
+            level={skill.level}
+            description={skill.description}
+          />
         ))}
       </div>
     </motion.div>

@@ -2,14 +2,18 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 
-const SkillBar = ({ skill, level }) => {
+const SkillBar = ({ skill, description, level }) => {
   const ref = useRef(null);
 
   const isInView = useInView(ref, { once: false });
   return (
     <div className="mb-4 flex flex-col justify-between items-center">
       <div className=" flex flex-row justify-between w-full">
-        <h3 className="text-xl">{skill}</h3>
+        <div className=" flex flex-row justify-start items-center">
+          <h3 className="text-xl mr-2">{skill}</h3>
+          <h3 className=" text-xs">{description}</h3>
+        </div>
+
         <div className="text-xs">{level}%</div>
       </div>
 

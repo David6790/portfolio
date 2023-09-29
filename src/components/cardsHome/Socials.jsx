@@ -20,14 +20,6 @@ const Socials = () => {
     >
       <div className=" text-white text-4xl flex flex-row justify-evenly mb-5 border-solid border-[#444] rounded-2xl  sm:mx-0 p-5 mx-0 border-[1px]">
         <a
-          href="https://www.instagram.com/david_long_bin/"
-          rel="noreferrer"
-          target="_blank"
-          aria-label="Lien vers instagram"
-        >
-          <i className="fa-brands fa-instagram"></i>
-        </a>
-        <a
           href="https://github.com/David6790"
           rel="noreferrer"
           target="_blank"
@@ -42,6 +34,14 @@ const Socials = () => {
           aria-label="Lien vers linkedin"
         >
           <i className="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/david_long_bin/"
+          rel="noreferrer"
+          target="_blank"
+          aria-label="Lien vers instagram"
+        >
+          <i className="fa-brands fa-instagram"></i>
         </a>
       </div>
       <div>

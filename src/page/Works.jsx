@@ -20,7 +20,6 @@ const Works = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleClick = (project) => {
-    console.log("clicked");
     setSelectedProject(project);
     setIsModalOpen(true);
   };
@@ -81,9 +80,7 @@ const Works = () => {
             {myProject
               ? myProject.map((item) => (
                   <Project
-                    imageSrc={item.image}
-                    mission={item.typeOfMission.toUpperCase()}
-                    name={item.name}
+                    item={item}
                     key={item.id}
                     handleClick={() => handleClick(item)}
                   />

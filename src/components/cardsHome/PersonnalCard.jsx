@@ -36,7 +36,7 @@ const PersonnalCard = () => {
               <span>Long Bin.</span>
             </h1>
             <p className=" hidden lg:flex md:flex sm:flex ">
-              Développeur Frontend basé à Strasbourg
+              Créateur de d'expériences web uniques.
             </p>
           </div>
 
