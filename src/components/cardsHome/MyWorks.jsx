@@ -11,7 +11,7 @@ const MyWorks = () => {
   return (
     <NavLink to="/works">
       <motion.div
-        className="h-full flex flex-col justify-between  lg:p-[20px] md:p-[10px] sm:p-[10px] p-[10px] w-full  rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] group"
+        className="h-full flex flex-col justify-between  lg:p-[20px] md:p-[10px] sm:p-[10px] p-5 w-full  rounded-3xl shadow-myshadow bg-card-gradiant bg-card  border-solid border-[#444] border-[1px] group"
         ref={ref}
         style={{
           transform: isInView ? "none" : "scale(0) opacity(0.7)",

@@ -21,11 +21,11 @@ const Home = () => {
             <AboutMe />
           </div>
         </div>
-        <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col  lg:justify-between md:justify-between sm:justify-between justify-evenly  w-full  lg:h-[250px] md:h-[250px] sm:h-[250px] h-[300px]  mb-10 gap-8">
-          <div className=" lg:w-8/12 md:w-8/12 sm:w-8/12 w-full ">
+        <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col  lg:justify-between md:justify-between sm:justify-between justify-evenly  w-full  lg:h-[250px] md:h-[250px] sm:h-[250px] h-[450px] lg:mb-10 md:mb-10 sm:mb-10 gap-8">
+          <div className=" lg:w-8/12 md:w-8/12 sm:w-8/12 w-full lg:h-auto md:h-auto sm:h-auto h-[50%] ">
             <MyWorks />
           </div>
-          <div className=" lg:w-4/12 md:w-4/12 sm:w-4/12 w-full lg:mb-0 md:mb-0 sm:mb-0 mb-10">
+          <div className=" lg:w-4/12 md:w-4/12 sm:w-4/12 w-full lg:mb-0 md:mb-0 sm:mb-0 mb-10 lg:h-auto md:h-auto sm:h-auto h-[50%]">
             <Experience />
           </div>
         </div>
