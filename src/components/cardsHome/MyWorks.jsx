@@ -33,7 +33,7 @@ const MyWorks = () => {
         </div>
         <div className="flex flex-row items-center justify-between w-full">
           <h1 className="lg:text-3xl md:text-2xl sm:text-2xl">
-            Mes <span className=" text-myBlue">Compétences</span> &
+            Mes <span className=" text-myBlue">Projets</span> &
             <span className=" text-myBlue"> Réalisations</span>
           </h1>
           <IconCta />

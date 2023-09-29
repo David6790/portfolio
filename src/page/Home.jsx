@@ -4,9 +4,10 @@ import PersonnalCard from "../components/cardsHome/PersonnalCard";
 import AboutMe from "../components/cardsHome/AboutMe";
 import MyWorks from "../components/cardsHome/MyWorks";
 import Socials from "../components/cardsHome/Socials";
-import Experience from "../components/cardsHome/Experience";
+
 import ContactCard from "../components/cardsHome/ContactCard";
 import TypeWrite from "../components/cardsHome/TypeWrite";
+import Skills from "../components/cardsHome/Skills";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
             <MyWorks />
           </div>
           <div className=" lg:w-4/12 md:w-4/12 sm:w-4/12 w-full lg:mb-0 md:mb-0 sm:mb-0 mb-10 lg:h-auto md:h-auto sm:h-auto h-[50%]">
-            <Experience />
+            <Skills />
           </div>
         </div>
         <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col w-[100%] justify-between gap-8  lg:h-[250px] md:h-[250px] sm:h-[250px] h-[400px]  ">

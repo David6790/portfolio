@@ -2,6 +2,15 @@
   "projects": [
     {
       "id": 1,
+      "name": "Elisa & Killian",
+      "image": "./img/projects/elisa.webp",
+      "typeOfMission": "Intégration et design Web",
+      "missionContext": "Killian, un ami proche, s'apprêtait à vivre l'un des moments les plus mémorables de sa vie : son mariage. Dans cette ère numérique, il souhaitait une approche moderne pour annoncer cette grande nouvelle à ses proches. Au lieu d'un faire-part traditionnel, il m'a approché avec l'idée de créer un site web dédié qui non seulement servirait d'invitation, mais aussi de plateforme pour partager des moments précieux avec ses invités. Le site devait être à la fois élégant et fonctionnel, reflétant l'importance et la beauté de l'occasion.",
+      "technicalChallenges": "Le principal défi technique était de concevoir un site qui soit à la fois esthétiquement plaisant et facile à naviguer pour des utilisateurs de tous âges, étant donné la variété des invités. De plus, le site devait être suffisamment sécurisé pour protéger les informations personnelles et les photos partagées. L'intégration d'un lien vers un drive pour le téléchargement des photos a nécessité une attention particulière pour garantir une transition fluide et sécurisée pour les utilisateurs. Enfin, étant donné la nature éphémère de l'événement, il était essentiel que le site soit optimisé pour la performance, garantissant ainsi que chaque visiteur puisse accéder rapidement aux informations, quel que soit le dispositif ou la connexion internet utilisée",
+      "link": "https://www.elisa-killian-sedisentoui.fr/"
+    },
+    {
+      "id": 2,
       "name": "Booki",
       "image": "./img/projects/booki.webp",
       "typeOfMission": "Intégration Web",
@@ -10,7 +19,7 @@
       "link": "https://david6790.github.io/Projet_3_v2/"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Oh My Food",
       "image": "./img/projects/ohMyFood.webp",
       "typeOfMission": "Intégration / Animation Design",
@@ -19,7 +28,7 @@
       "link": "https://david6790.github.io/projet-4-OC/"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Portfolio Sophie Bluel",
       "image": "./img/projects/sophieBluel.webp",
       "typeOfMission": "Développement Javascript",
@@ -28,7 +37,7 @@
       "link": "https://github.com/David6790/oc-p6-javascript"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Menu Maker by Qwenta",
       "image": "./img/projects/qwenta.webp",
       "typeOfMission": "Gestion de projet Agile.",
@@ -36,7 +45,7 @@
       "technicalChallenges": "Ce projet a présenté plusieurs défis techniques et organisationnels. Premièrement, la mise en place d'un système de veille efficace pour recueillir des idées pertinentes pour le projet, tout en garantissant sa réutilisabilité pour l'équipe. Deuxièmement, la détermination précise des spécifications techniques du \"Menu Maker\" basée sur les documents fournis, tout en justifiant chaque choix pour assurer la satisfaction du client. Enfin, la planification du projet était essentielle : la configuration d'un outil de gestion de projet, la création d'un tableau Kanban détaillé et la garantie que toutes les tâches étaient clairement définies et catégorisées. Chacun de ces défis nécessitait une attention méticuleuse aux détails, une communication ouverte avec l'équipe et une vision claire de l'objectif final, tout en respectant les principes AGILE pour une gestion de projet flexible et adaptative."
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Kasa",
       "image": "./img/projects/kasa.webp",
       "typeOfMission": "Développement React.js",
@@ -45,7 +54,7 @@
       "link": "https://willowy-biscochitos-d434da.netlify.app/"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Nina Carducci",
       "image": "./img/projects/nina.webp",
       "typeOfMission": "Référencement SEO",
@@ -54,7 +63,7 @@
       "link": "https://david6790.github.io/oc-p9/"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "724 Events",
       "image": "./img/projects/724.webp",
       "typeOfMission": "Débug - Tests Unitaires",
@@ -63,7 +72,7 @@
       "link": "https://unique-dodol-538995.netlify.app/"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Argent-Bank",
       "image": "./img/projects/argent.webp",
       "typeOfMission": "Développement React - Redux",
