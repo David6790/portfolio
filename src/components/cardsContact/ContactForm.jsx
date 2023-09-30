@@ -55,6 +55,7 @@ const ContactForm = () => {
           name="name"
           placeholder="Votre Nom *"
           className=" rounded-xl bg-form-gradiant bg-card  p-5 focus:outline-none"
+          required
         />
 
         <input
@@ -62,6 +63,7 @@ const ContactForm = () => {
           name="email"
           placeholder="Email *"
           className=" rounded-xl bg-form-gradiant bg-card focus:outline-none  p-5"
+          required
         />
 
         <input
@@ -69,12 +71,14 @@ const ContactForm = () => {
           name="objet"
           placeholder="Objet *"
           className=" rounded-xl bg-form-gradiant bg-card focus:outline-none   p-5"
+          required
         />
 
         <textarea
           name="message"
           placeholder="Votre message *"
           className=" rounded-xl bg-form-gradiant bg-card focus:outline-none  resize-none overflow-scroll p-5"
+          required
         />
         <button
           type="submit"

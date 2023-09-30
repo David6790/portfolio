@@ -21,10 +21,10 @@ const ContactCard = () => {
         }}
       >
         <div>
-          <h1 className=" text-5xl sm:text-3xl">Et si...</h1>
+          <h1 className=" text-5xl sm:text-3xl">Exposez vos besoins.</h1>
         </div>
         <h1 className="lg:text-4xl md:text-4xl sm:text-3xl text-myBlue">
-          On travaillait ensemble ?
+          Travaillons ensemble.
         </h1>
         <div className="flex flex-row justify-between items-center opacity-50 group-hover:opacity-100  ">
           <p>CONTACTEZ-MOI</p>
