@@ -6,7 +6,7 @@ const IconCta = () => {
       <img
         src="./img/logo/logoSimple.png"
         alt=""
-        className="lg:h-12 md:h-12 sm:h-10 h-7 opacity-50 group-hover:opacity-100 "
+        className="lg:h-12 md:h-12 sm:h-10 h-7 opacity-50 group-hover:opacity-100  "
       />
     </div>
   );

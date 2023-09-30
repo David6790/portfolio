@@ -31,11 +31,11 @@ const PersonnalCard = () => {
         <div className=" flex flex-col justify-evenly  w-[50%] md:gap-4  h-full  ">
           <div>
             <h2 className=" mb-5 lg:mt-8 md:mt-5 sm:mt-5 ">DEVELOPPEUR WEB</h2>
-            <h1 className=" lg:text-4xl md:text-4xl sm:text-4xl text-2xl lg:mb-5 md:mb-5 sm:mb-5 mb-5">
+            <h1 className=" lg:text-4xl md:text-4xl sm:text-4xl text-2xl lg:mb-5 md:mb-5 sm:mb-5 mb-2">
               <span className="text-myBlue">David </span>
               <span>Long Bin.</span>
             </h1>
-            <p className="  lg:flex md:flex sm:flex  lg:text-base md:text-base sm:text-xs text-xs ">
+            <p className="  lg:flex md:flex sm:flex  lg:text-base md:text-base sm:text-xs text-xs mb-5 ">
               Expert en développement front-end, créateur d'expériences web
               uniques.
             </p>
