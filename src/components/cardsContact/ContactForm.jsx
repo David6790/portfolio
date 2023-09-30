@@ -43,7 +43,7 @@ const ContactForm = () => {
       }}
     >
       <h1 className=" text-3xl mb-10">
-        Travaillons <span className=" text-myBlue"> ensemble </span>
+        Exposez <span className=" text-myBlue"> vos besoins : </span>
       </h1>
       <form
         ref={form}
@@ -61,7 +61,7 @@ const ContactForm = () => {
         <input
           type="email"
           name="email"
-          placeholder="Email *"
+          placeholder="Votre Email *"
           className=" rounded-xl bg-form-gradiant bg-card focus:outline-none  p-5"
           required
         />
@@ -69,7 +69,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="objet"
-          placeholder="Objet *"
+          placeholder="Objet du message *"
           className=" rounded-xl bg-form-gradiant bg-card focus:outline-none   p-5"
           required
         />

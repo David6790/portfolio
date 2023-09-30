@@ -28,21 +28,22 @@ const PersonnalCard = () => {
             className=" w-[100%] h-[100%]  rounded-tl-3xl rounded-br-3xl  object-cover"
           />
         </div>
-        <div className=" flex flex-col justify-between w-[50%] md:gap-4  h-full  ">
+        <div className=" flex flex-col justify-evenly  w-[50%] md:gap-4  h-full  ">
           <div>
-            <h2 className=" mb-5 lg:mt-5 md:mt-5 sm:mt-5 ">DEVELOPPEUR WEB</h2>
+            <h2 className=" mb-5 lg:mt-8 md:mt-5 sm:mt-5 ">DEVELOPPEUR WEB</h2>
             <h1 className=" lg:text-4xl md:text-4xl sm:text-4xl text-2xl lg:mb-5 md:mb-5 sm:mb-5 mb-5">
               <span className="text-myBlue">David </span>
               <span>Long Bin.</span>
             </h1>
-            <p className=" hidden lg:flex md:flex sm:flex ">
-              Créateur de d'expériences web uniques.
+            <p className="  lg:flex md:flex sm:flex  lg:text-base md:text-base sm:text-xs text-xs ">
+              Expert en développement front-end, créateur d'expériences web
+              uniques.
             </p>
           </div>
 
           <div className=" w-full flex flex-row lg:justify-start md:justify-start justify-between  items-center opacity-50 group-hover:opacity-100 h-full  ">
-            <div className="h-full  flex flex-row justify-center items-center ">
-              <p className=" lg:text-base md:text-base sm:text-base text-xs  lg:mr-5 md:mr-3 ">
+            <div className="h-full w-full flex flex-row justify-between  items-center ">
+              <p className=" lg:text-xs  md:text-xs sm:text-xs text-xs  lg:mr-5 md:mr-3 ">
                 À PROPOS DE MOI
               </p>
             </div>
