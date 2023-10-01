@@ -13,7 +13,7 @@ const Socials = () => {
       ref={ref}
       style={{
         transform: isInView ? "none" : "scale(0) opacity(0.7)",
-        scale: isInView ? 1 : 0,
+        scale: isInView ? 1 : 0.7,
         opacity: isInView ? 1 : 0,
         transition: "all ease-in 0.5s ",
       }}

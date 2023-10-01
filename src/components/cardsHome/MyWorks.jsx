@@ -20,16 +20,12 @@ const MyWorks = () => {
           transition: "all ease-in 0.5s",
         }}
       >
-        <div className=" text-white lg:text-6xl md:text-5xl sm:text-5xl text-4xl flex flex-row justify-between mt-[30px] ">
-          <i className="fa-brands fa-react"></i>
-          <img
-            src="./img/redux.png"
-            alt=""
-            className=" lg:h-[60px] md:h-[45px] sm:h-[45px] h-[40px]"
-          />
-          <i className="fa-brands fa-js"></i>
-          <i className="fa-brands fa-css3-alt"></i>
-          <i className="fa-brands fa-html5"></i>
+        <div className=" text-white lg:text-5xl md:text-5xl sm:text-5xl text-4xl flex flex-row justify-between items-center h-1/2   ">
+          <i className="fa-solid fa-briefcase"></i>
+          <i className="fa-solid fa-code"></i>
+          <i className="fa-solid fa-laptop-code"></i>
+          <i className="fa-solid fa-handshake-simple"></i>
+          <i className="fa-solid fa-code-branch"></i>
         </div>
         <div className="flex flex-row items-center justify-between w-full">
           <h1 className="lg:text-3xl md:text-2xl sm:text-2xl">
