@@ -30,9 +30,17 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       >
         <div className=" w-full h-full rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] lg:p-10 md:p-10 sm:p-10 p-5 ">
           <div className=" flex flex-row lg:h-[10%] h-[5%]  justify-between items-center lg:mb-5 md:mb-5 sm:mb-5 mb-2">
-            <h1 className=" lg:text-3xl  text-xl text-myBlue">
-              {project.name}
-            </h1>
+            <div className="w-full justify-start flex flex-col items-start ">
+              <h1 className=" lg:text-3xl text-base ">{project.name}</h1>
+              <div className="flex flex-row w-full justify-start text-myBlue text-xs">
+                {project.tech.map((item, index) => (
+                  <p className=" mr-5" key={index}>
+                    *{item}
+                  </p>
+                ))}
+              </div>
+            </div>
+
             <button onClick={onClose} className="text-sm text-white underline">
               Fermer
             </button>

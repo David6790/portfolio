@@ -7,7 +7,8 @@
       "typeOfMission": "Intégration et design Web",
       "missionContext": "Killian, un ami proche, s'apprêtait à vivre l'un des moments les plus mémorables de sa vie : son mariage. Dans cette ère numérique, il souhaitait une approche moderne pour annoncer cette grande nouvelle à ses proches. Au lieu d'un faire-part traditionnel, il m'a approché avec l'idée de créer un site web dédié qui non seulement servirait d'invitation, mais aussi de plateforme pour partager des moments précieux avec ses invités. Le site devait être à la fois élégant et fonctionnel, reflétant l'importance et la beauté de l'occasion.",
       "technicalChallenges": "Le principal défi technique était de concevoir un site qui soit à la fois esthétiquement plaisant et facile à naviguer pour des utilisateurs de tous âges, étant donné la variété des invités. De plus, le site devait être suffisamment sécurisé pour protéger les informations personnelles et les photos partagées. L'intégration d'un lien vers un drive pour le téléchargement des photos a nécessité une attention particulière pour garantir une transition fluide et sécurisée pour les utilisateurs. Enfin, étant donné la nature éphémère de l'événement, il était essentiel que le site soit optimisé pour la performance, garantissant ainsi que chaque visiteur puisse accéder rapidement aux informations, quel que soit le dispositif ou la connexion internet utilisée",
-      "link": "https://www.elisa-killian-sedisentoui.fr/"
+      "link": "https://www.elisa-killian-sedisentoui.fr/",
+      "tech": ["HTML", "CSS", "JavaScript"]
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "typeOfMission": "Intégration et design Web",
       "missionContext": "La société Prodan Bati Alsace, établie à Strasbourg depuis 2014, est une entreprise reconnue dans le secteur du BTP. Spécialisée dans les travaux de rénovation de second œuvre, elle offre une gamme complète de services, allant de la peinture au carrelage, en passant par l'isolation intérieure et extérieure, la pose de sol stratifié et de mur. Avec la qualification QUALIBAT - RGE et des garanties décénales couvrant l'ensemble de ses activités, l'entreprise a su se forger une solide réputation dans la région. Face à une demande croissante et à l'évolution constante du secteur, Fanny Fuchs a ressenti le besoin de renforcer sa présence en ligne et de disposer d'un site web à la hauteur de son expertise.",
       "technicalChallenges": "Le principal défi technique résidait dans la création d'un site web qui reflète non seulement le professionnalisme et l'expertise de la société Prodan Bati Alsace, mais aussi la diversité de ses services. Il était essentiel de concevoir une interface utilisateur intuitive, permettant aux visiteurs de naviguer facilement entre les différents services offerts, tout en mettant en avant les qualifications et garanties de l'entreprise. De plus, étant donné l'importance du matériel dans l'exécution des chantiers, une section dédiée à la présentation du matériel utilisé par l'entreprise a été intégrée, offrant ainsi une transparence totale aux clients potentiels.",
-      "link": "https://www.prodan-bati-alsace.fr/"
+      "link": "https://www.prodan-bati-alsace.fr/",
+      "tech": ["HTML", "CSS", "JavaScript"]
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "typeOfMission": "Intégration Web",
       "missionContext": "Booki, une entreprise en plein essor, vise à révolutionner la manière dont les voyageurs planifient leurs séjours en offrant une plateforme permettant de découvrir des hébergements et des activités dans la ville de leur choix. Ma mission principale était d'intégrer l'interface du site en utilisant HTML et CSS, en transformant les maquettes conçues pour desktop, tablette et mobile en un site web fonctionnel et réactif. Collaborant étroitement avec la CTO et l'UI designer, j'ai été fourni avec une structure de fichiers initiale, comprenant une base de code HTML et CSS ainsi qu'un ensemble d'images pour le site. Avec les spécifications et contraintes techniques clairement définies, mon défi était de compléter et d'optimiser le code tout en respectant la vision de l'équipe et en conservant la structure de dossiers fournie. Cette collaboration interdisciplinaire visait à créer une expérience utilisateur fluide et intuitive pour les voyageurs cherchant à optimiser leurs aventures urbaines.",
       "technicalChallenges": "L'un des principaux défis de ce projet a été d'assurer une transition fluide entre les maquettes de Loïc et un site web réactif, offrant une expérience utilisateur optimale sur tous les appareils. Cela a nécessité une attention particulière à l'optimisation des images pour garantir des temps de chargement rapides, tout en respectant une structure de fichiers préexistante. De plus, étendre une base de code préétablie tout en respectant scrupuleusement les spécifications techniques fournies a été une tâche cruciale. Enfin, garantir la compatibilité entre différents navigateurs et intégrer des éléments interactifs sans compromettre les performances a ajouté une couche supplémentaire de complexité. Grâce à une collaboration étroite avec l'équipe et à une approche méthodique, ces défis ont été surmontés avec succès.",
-      "link": "https://david6790.github.io/Projet_3_v2/"
+      "link": "https://david6790.github.io/Projet_3_v2/",
+      "tech": ["HTML", "CSS"]
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "typeOfMission": "Intégration / Animation Design",
       "missionContext": "OhMyFood est une initiative innovante visant à transformer l'expérience gastronomique en permettant aux clients de précomposer leurs menus dans des restaurants gastronomiques, éliminant ainsi les temps d'attente traditionnels. L'équipe d'OhMyFood a collaboré avec quatre restaurateurs pour lancer cette plateforme. Ma mission était de donner vie à cette vision en créant un site web \"mobile first\" basé sur les maquettes fournies par l'UX designer. Ces maquettes, conçues pour mobile, tablette et desktop, étaient accompagnées d'un prototype détaillé sur Figma, illustrant les animations et comportements souhaités. Le défi était non seulement de développer un site responsive qui reflète fidèlement le design, mais aussi d'intégrer des animations soignées pour enrichir l'expérience utilisateur.",
       "technicalChallenges": "Le projet OhMyFood a présenté un ensemble unique de défis techniques. L'objectif principal était de créer une plateforme \"mobile first\" qui non seulement permet aux utilisateurs de découvrir des menus gastronomiques, mais aussi de précomposer leurs repas, réduisant ainsi les temps d'attente. Cela a nécessité une attention particulière à la fluidité de l'interface utilisateur et à l'efficacité des interactions. De plus, intégrer des animations soignées tout en garantissant que le site reste réactif et performant sur tous les appareils a été essentiel. La transformation des maquettes fournies en un site web dynamique, tout en respectant les comportements et animations définis dans le prototype Figma, a ajouté une autre dimension de complexité. Grâce à une approche détaillée et une collaboration étroite avec l'équipe, ces défis ont été adressés et résolus avec succès.",
-      "link": "https://david6790.github.io/projet-4-OC/"
+      "link": "https://david6790.github.io/projet-4-OC/",
+      "tech": ["HTML", "SASS"]
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "typeOfMission": "Développement Javascript",
       "missionContext": "Rejoignant l'équipe d'ArchiWebos, une agence renommée de 50 salariés, j'ai été sollicité pour prêter main-forte sur un projet en cours : la conception du site portfolio pour une architecte d'intérieur, Sophie Bluel. Alors que l'agence avait déjà établi une version statique de la page et défini le design via Figma, ma mission était d'intégrer de nouvelles fonctionnalités, d'assurer la persistance des données et d'interagir avec le back-end pour dynamiser le site. Collaborant étroitement avec l'équipe, j'ai été équipé des ressources nécessaires, y compris le code existant et un Kanban détaillé, pour mener à bien cette mission.",
       "technicalChallenges": "Le principal défi technique résidait dans l'intégration harmonieuse du design Figma tout en veillant à ce que le site soit réactif et performant. La coordination avec l'équipe back-end était cruciale pour s'assurer que les données étaient correctement persistées et que toutes les fonctionnalités étaient testées et fonctionnaient comme prévu. De plus, travailler sur un projet déjà en cours nécessitait une compréhension rapide du code existant et une capacité à s'adapter aux méthodologies de l'équipe en place. La gestion des tâches via le Kanban était également un élément essentiel pour suivre l'avancement du projet et s'assurer que toutes les exigences étaient remplies dans les délais impartis.",
-      "link": "https://github.com/David6790/oc-p6-javascript"
+      "link": "https://github.com/David6790/oc-p6-javascript",
+      "tech": ["HTML", "SASS", "JavaScript"]
     },
     {
       "id": 6,
@@ -51,7 +56,8 @@
       "image": "./img/projects/qwenta.webp",
       "typeOfMission": "Gestion de projet Agile.",
       "missionContext": "Au sein de l'agence Webgencia, une mission m'a été confiée, différente des projets habituels de développement. Qwenta, l'un de nos clients, envisage de lancer \"Menu Maker\", une plateforme destinée aux restaurateurs pour concevoir et mettre en page leurs menus en toute simplicité. Plutôt que de me concentrer uniquement sur le développement, mon rôle était de préparer, planifier et définir le projet en collaboration avec le Product Owner. Adoptant une approche AGILE, j'étais chargé de mettre en place une méthodologie de travail agile, en utilisant notamment la méthode Kanban pour une gestion fluide des tâches. J'étais équipé des maquettes, des spécifications fonctionnelles et des user stories pour guider le processus.",
-      "technicalChallenges": "Ce projet a présenté plusieurs défis techniques et organisationnels. Premièrement, la mise en place d'un système de veille efficace pour recueillir des idées pertinentes pour le projet, tout en garantissant sa réutilisabilité pour l'équipe. Deuxièmement, la détermination précise des spécifications techniques du \"Menu Maker\" basée sur les documents fournis, tout en justifiant chaque choix pour assurer la satisfaction du client. Enfin, la planification du projet était essentielle : la configuration d'un outil de gestion de projet, la création d'un tableau Kanban détaillé et la garantie que toutes les tâches étaient clairement définies et catégorisées. Chacun de ces défis nécessitait une attention méticuleuse aux détails, une communication ouverte avec l'équipe et une vision claire de l'objectif final, tout en respectant les principes AGILE pour une gestion de projet flexible et adaptative."
+      "technicalChallenges": "Ce projet a présenté plusieurs défis techniques et organisationnels. Premièrement, la mise en place d'un système de veille efficace pour recueillir des idées pertinentes pour le projet, tout en garantissant sa réutilisabilité pour l'équipe. Deuxièmement, la détermination précise des spécifications techniques du \"Menu Maker\" basée sur les documents fournis, tout en justifiant chaque choix pour assurer la satisfaction du client. Enfin, la planification du projet était essentielle : la configuration d'un outil de gestion de projet, la création d'un tableau Kanban détaillé et la garantie que toutes les tâches étaient clairement définies et catégorisées. Chacun de ces défis nécessitait une attention méticuleuse aux détails, une communication ouverte avec l'équipe et une vision claire de l'objectif final, tout en respectant les principes AGILE pour une gestion de projet flexible et adaptative.",
+      "tech": ["Notion", "Kanban", "Feedly"]
     },
     {
       "id": 7,
@@ -60,7 +66,8 @@
       "typeOfMission": "Développement React.js",
       "missionContext": "Rejoignant l'équipe de Kasa, leader de la location d'appartements entre particuliers en France, j'ai été sollicité pour une mission cruciale : la refonte totale de leur plateforme web. Après une décennie d'existence, le site web de Kasa, initialement codé en ASP.NET, nécessitait une modernisation pour répondre aux exigences actuelles. Laura, la CTO, avait déjà initié une transition vers une stack complète en JavaScript, avec l'ambition d'utiliser NodeJS pour le back-end et React pour le front-end. Ma mission principale était de démarrer le projet React et de développer l'application en suivant les maquettes Figma fournies, tout en collaborant étroitement avec Paul, le designer, pour assurer une fidélité au design et aux fonctionnalités envisagées.",
       "technicalChallenges": "Ce projet a présenté plusieurs défis techniques. Tout d'abord, la nécessité de travailler sans back-end pendant une période, en utilisant uniquement un fichier JSON pour simuler les données, a exigé une approche flexible et adaptable. De plus, l'intégration précise des maquettes Figma, tout en respectant la logique de composants, était essentielle pour garantir une expérience utilisateur fluide. Les animations, en particulier les menus déroulants (Collapse) et la galerie d'images, devaient être implémentées avec soin pour assurer une interaction intuitive. En outre, les contraintes fonctionnelles, telles que la gestion du défilement des photos et le comportement des composants Collapse, ont ajouté une couche supplémentaire de complexité. Enfin, le respect des coding guidelines de Kasa et la possibilité d'utiliser des bundlers alternatifs ont nécessité une attention particulière pour garantir un code de qualité et une performance optimale.",
-      "link": "https://willowy-biscochitos-d434da.netlify.app/"
+      "link": "https://willowy-biscochitos-d434da.netlify.app/",
+      "tech": ["HTML", "SASS", "React"]
     },
     {
       "id": 8,
@@ -69,7 +76,8 @@
       "typeOfMission": "Référencement SEO",
       "missionContext": "j'ai été en contact avec Nina Carducci, une photographe talentueuse. Malgré la qualité de son travail, son site web présentait des lacunes en matière de performance et de référencement. Suite à mon audit initial et à ma proposition d'optimisation, Nina a manifesté un vif intérêt pour mes services. Notre collaboration s'est concrétisée par une discussion téléphonique, au cours de laquelle nous avons défini les contours précis de la mission, allant de l'optimisation globale du site à l'amélioration de son accessibilité.",
       "technicalChallenges": "Cette mission a présenté plusieurs défis techniques. Tout d'abord, l'optimisation globale du site nécessitait une approche holistique, abordant à la fois les performances et le SEO. Cela impliquait une révision minutieuse du code, l'optimisation des images et la restructuration de certains éléments pour améliorer la vitesse de chargement. De plus, la mise en place du référencement local via Schema.org exigeait une attention particulière pour garantir que les informations de Nina soient correctement indexées par les moteurs de recherche. L'ajout de métadonnées pour les réseaux sociaux et l'assurance d'une accessibilité optimale du site ajoutaient des couches supplémentaires de complexité. Enfin, la production d'un rapport d'optimisation détaillé était essentielle pour démontrer l'impact positif des modifications apportées.",
-      "link": "https://david6790.github.io/oc-p9/"
+      "link": "https://david6790.github.io/oc-p9/",
+      "tech": ["HTML", "CSS", "JavaScript", "SEO"]
     },
     {
       "id": 9,
@@ -78,7 +86,8 @@
       "typeOfMission": "Débug - Tests Unitaires",
       "missionContext": "En tant que développeur front-end freelance, j'ai été sollicité par l'agence événementielle 724events pour prendre le relais sur un projet crucial : la publication de la nouvelle version de leur site vitrine. Ce site one-page avait déjà été partiellement intégré par un autre développeur freelance qui, pour des raisons personnelles, n'a pas pu mener le projet à son terme. Bien que le site soit fonctionnel, plusieurs bugs subsistent, entravant une expérience utilisateur optimale. Jean-Baptiste, le directeur Marketing de l'agence, m'a présenté les enjeux et les attentes autour de ce projet lors d'une visioconférence, soulignant l'importance de cette refonte pour l'agence.",
       "technicalChallenges": "La mission, bien que centrée sur la finalisation d'un site déjà en cours de développement, présente plusieurs défis techniques. Tout d'abord, il est essentiel de se familiariser rapidement avec le code existant pour identifier et corriger les bugs. Le suivi de l'onglet \"Issues\" est primordial pour comprendre les tâches restantes et les problèmes identifiés par le développeur précédent. De plus, la finalisation du cahier de recette nécessite une approche méthodique pour s'assurer que tous les scénarios de test sont couverts et que le site fonctionne comme prévu. Chaque bug résolu et chaque fonctionnalité ajoutée doivent être rigoureusement testés pour garantir une livraison sans faille, répondant aux attentes élevées de l'agence.",
-      "link": "https://unique-dodol-538995.netlify.app/"
+      "link": "https://unique-dodol-538995.netlify.app/",
+      "tech": ["HTML", "SASS", "React"]
     },
     {
       "id": 10,
@@ -87,7 +96,8 @@
       "typeOfMission": "Développement React - Redux",
       "missionContext": "Argent Bank, une nouvelle banque en ligne aspirant à se démarquer dans le secteur bancaire, ma mission principale est de collaborer avec la cheffe de projet, pour la mise en place du tableau de bord des utilisateurs. Argent Bank, bien que nouvelle, a des ambitions élevées, et le CTO  a clairement exprimé l'importance de cette initiative. Le projet est divisé en deux phases : la première concerne l'authentification des utilisateurs et la mise en place d'un tableau de bord fonctionnel, tandis que la deuxième se concentrera sur la gestion des transactions des utilisateurs.",
       "technicalChallenges": "La première phase du projet nécessite la création d'une application web complète et responsive avec React, en utilisant le HTML statique et le CSS déjà fournis comme point de départ. L'application doit non seulement permettre aux utilisateurs de s'authentifier, mais aussi de visualiser et de modifier certaines informations de leur profil. L'utilisation de Redux pour gérer le state de l'application est essentielle pour préparer l'intégration future des transactions. De plus, l'optimisation des images et la création de composants réutilisables sont cruciales pour respecter les bonnes pratiques du Green Code. La deuxième phase, axée sur les transactions, présente un défi supplémentaire : la modélisation des routes API. Il est essentiel de fournir une documentation détaillée suivant les directives de Swagger, en tenant compte des besoins fonctionnels et des maquettes fournies.",
-      "link": "https://github.com/David6790/oc-p11"
+      "link": "https://github.com/David6790/oc-p11",
+      "tech": ["HTML ", "CSS", "React", "Redux"]
     }
   ]
 }
