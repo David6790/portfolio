@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import Layout from "../layout/Layout";
-import { useGetProjectsQuery } from "../API/api";
-import { useDispatch, useSelector } from "react-redux";
-import { setProjects, works } from "../features/themes/projectSlice";
+
+import { useSelector } from "react-redux";
+import { works } from "../features/themes/projectSlice";
 import Project from "../components/cardsWork/Project";
 import { motion } from "framer-motion";
 
@@ -11,16 +11,16 @@ import TestimonialSlider from "../components/testimonilSlider/TestimonialSlider"
 import ProjectModal from "../components/ProjectModal/ProjectModal";
 
 const Works = () => {
-  const { data: projects, refetch } = useGetProjectsQuery();
-  const dispatch = useDispatch();
   const myProject = useSelector(works);
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleClick = (project) => {
-    setSelectedProject(project);
+  const handleClick = (projectId) => {
+    const filteredProject = myProject.filter((item) => item.id === projectId);
+    setSelectedProject(filteredProject[0]);
     setIsModalOpen(true);
   };
 
@@ -28,13 +28,6 @@ const Works = () => {
     setIsModalOpen(false);
     setSelectedProject(null);
   };
-
-  useEffect(() => {
-    refetch();
-    if (projects && projects.projects) {
-      dispatch(setProjects(projects.projects));
-    }
-  }, [dispatch, myProject, projects, refetch]);
 
   return (
     <Layout>
@@ -82,7 +75,7 @@ const Works = () => {
                   <Project
                     item={item}
                     key={item.id}
-                    handleClick={() => handleClick(item)}
+                    handleClick={() => handleClick(item.id)}
                   />
                 ))
               : ""}

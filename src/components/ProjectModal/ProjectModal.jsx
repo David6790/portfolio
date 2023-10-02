@@ -44,7 +44,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 lg:w-[100%]  lg:h-full h-[200px] w-[100%]  object-contain  "
+                    className="rounded-3xl shadow-myshadow bg-spe-gradient border-solid border-[#444] border-[1px] p-5 lg:w-[100%]  lg:h-full h-[200px] w-[100%] lg:object-contain md:object-cover object-contain  "
                   />
                 </a>
               </div>
