@@ -28,7 +28,7 @@ const Socials = () => {
           <i className="fa-brands fa-github"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/david-long-bin-65a261137/"
+          href="https://www.linkedin.com/in/david-long-bin-a27455294/"
           rel="noreferrer"
           target="_blank"
           aria-label="Lien vers linkedin"
