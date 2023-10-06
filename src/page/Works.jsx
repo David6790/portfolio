@@ -12,7 +12,6 @@ import ProjectModal from "../components/ProjectModal/ProjectModal";
 
 const Works = () => {
   const myProject = useSelector(works);
-
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   const [selectedProject, setSelectedProject] = useState(null);
