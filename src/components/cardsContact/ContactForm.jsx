@@ -2,12 +2,15 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import ConfirmationModal from "./ConfirmationModal";
 
 const ContactForm = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   const [isLoading, setIsLoading] = useState(false);
   const form = useRef();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,9 +27,13 @@ const ContactForm = () => {
         (result) => {
           form.current.reset();
           setIsLoading(false);
+          setModalMessage("Votre message a été envoyé avec succès!");
+          setIsModalOpen(true);
         },
         (error) => {
           console.log(error.text);
+          setModalMessage("Une erreur s'est produite, merci de réessayer");
+          setIsModalOpen(true);
         }
       );
   };
@@ -43,7 +50,7 @@ const ContactForm = () => {
       }}
     >
       <h1 className=" text-3xl mb-10">
-        Exposez <span className=" text-myBlue"> vos besoins : </span>
+        Exposez-moi <span className=" text-myBlue"> vos besoins : </span>
       </h1>
       <form
         ref={form}
@@ -88,6 +95,12 @@ const ContactForm = () => {
           {isLoading ? "En cours ..." : "Envoyer"}
         </button>
       </form>
+
+      <ConfirmationModal
+        isOpen={isModalOpen}
+        message={modalMessage}
+        onClose={() => setIsModalOpen(false)}
+      />
     </motion.div>
   );
 };

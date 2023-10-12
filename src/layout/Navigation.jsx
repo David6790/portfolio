@@ -11,8 +11,8 @@ const Navigation = () => {
   };
   return (
     <>
-      <div className=" lg:w-8/12 md:w-8/12 sm:w-8/12 w-full flex flex-row justify-end">
-        <ul className=" w-full lg:flex md:flex sm:hidden hidden flex-row justify-around items-center   ">
+      <div className=" lg:w-8/12 md:w-8/12 sm:w-9/12 w-full flex flex-row justify-end ">
+        <ul className=" w-full lg:flex md:flex sm:hidden hidden flex-row justify-end lg:gap-10 md:gap-5  items-center   ">
           <NavLink
             to="/"
             className={(nav) =>

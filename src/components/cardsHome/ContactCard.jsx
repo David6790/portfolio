@@ -22,7 +22,7 @@ const ContactCard = () => {
       >
         <div>
           <h1 className=" text-3xl lg:text-4xl md:text-4xl sm:text-3xl">
-            Exposez vos besoins.
+            Exposez-moi vos besoins.
           </h1>
         </div>
         <h1 className="lg:text-4xl md:text-4xl sm:text-3xl text-3xl text-myBlue">
