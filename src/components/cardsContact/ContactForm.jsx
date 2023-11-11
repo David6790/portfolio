@@ -31,7 +31,6 @@ const ContactForm = () => {
           setIsModalOpen(true);
         },
         (error) => {
-          console.log(error.text);
           setModalMessage("Une erreur s'est produite, merci de réessayer");
           setIsModalOpen(true);
         }

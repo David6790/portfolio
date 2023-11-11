@@ -2,6 +2,16 @@
   "projects": [
     {
       "id": 1,
+      "name": "Restaurant Il Girasole",
+      "image": "./img/projects/girasole.png",
+      "typeOfMission": "Intégration & Design web",
+      "missionContext": "J'ai eu l'opportunité de développer le site vitrine et le système de réservation en ligne pour le restaurant Il Girasole à Strasbourg. Ce projet a été un équilibre entre les besoins du client, la créativité et les contraintes techniques. En collaboration étroite avec le gérant, Stéphane Wernert, j'ai transformé des idées innovantes en une plateforme user-friendly, reflétant l'authenticité du restaurant. Le résultat est un site élégant et fonctionnel, améliorant l'expérience client et renforçant la présence numérique du restaurant.",
+      "technicalChallenges": "La réalisation du site web pour Il Girasole a présenté plusieurs défis techniques stimulants. Premièrement, l'intégration d'un système de réservation en ligne sur mesure exigeait une solution fiable et fluide pour gérer les réservations des clients tout en étant facile à administrer pour le personnel du restaurant. De plus, l'optimisation du site pour une expérience utilisateur intuitive sur divers appareils, y compris mobiles, était essentielle. Le développement d'une interface visuellement attrayante et en accord avec l'identité du restaurant tout en garantissant des performances rapides et une navigation aisée a également été un axe majeur du projet. Enfin, le défi de présenter un menu varié sans images pour certaines sections a nécessité une approche créative en termes de conception et de mise en page.",
+      "link": "https://il-girasole-strasbourg.com/",
+      "tech": ["HTML", "TailwindCSS", "Javascript", "React"]
+    },
+    {
+      "id": 2,
       "name": "Elisa & Killian",
       "image": "./img/projects/elisa.webp",
       "typeOfMission": "Intégration et design Web",
@@ -11,7 +21,7 @@
       "tech": ["HTML", "CSS", "JavaScript"]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Prodan Bati Alsace",
       "image": "./img/projects/prodan.webp",
       "typeOfMission": "Intégration et design Web",
@@ -21,7 +31,7 @@
       "tech": ["HTML", "CSS", "JavaScript"]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Booki",
       "image": "./img/projects/booki.webp",
       "typeOfMission": "Intégration Web",
@@ -31,7 +41,7 @@
       "tech": ["HTML", "CSS"]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Oh My Food",
       "image": "./img/projects/ohMyFood.webp",
       "typeOfMission": "Intégration / Animation Design",
@@ -41,7 +51,7 @@
       "tech": ["HTML", "SASS"]
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Portfolio Sophie Bluel",
       "image": "./img/projects/sophieBluel.webp",
       "typeOfMission": "Développement Javascript",
@@ -51,7 +61,7 @@
       "tech": ["HTML", "SASS", "JavaScript"]
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Menu Maker by Qwenta",
       "image": "./img/projects/qwenta.webp",
       "typeOfMission": "Gestion de projet Agile.",
@@ -60,7 +70,7 @@
       "tech": ["Notion", "Kanban", "Feedly"]
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Kasa",
       "image": "./img/projects/kasa.webp",
       "typeOfMission": "Développement React.js",
@@ -70,7 +80,7 @@
       "tech": ["HTML", "SASS", "React"]
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Nina Carducci",
       "image": "./img/projects/nina.webp",
       "typeOfMission": "Référencement SEO",
@@ -80,7 +90,7 @@
       "tech": ["HTML", "CSS", "JavaScript", "SEO"]
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "724 Events",
       "image": "./img/projects/724.webp",
       "typeOfMission": "Débug - Tests Unitaires",
@@ -90,7 +100,7 @@
       "tech": ["HTML", "SASS", "React"]
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Argent-Bank",
       "image": "./img/projects/argent.webp",
       "typeOfMission": "Développement React - Redux",
